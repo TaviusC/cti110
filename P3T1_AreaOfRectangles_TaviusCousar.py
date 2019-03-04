@@ -17,12 +17,12 @@
 #   Display "Both rectangles have the same area."
 
 # Get the dimensions of rectangle 1
-length1 = int(input('Enter the length of rectangle 1: '))
-width1 = int(input('Enter the width of rectangle 1: '))
+length1 = float(input('Enter the length of rectangle 1: '))
+width1 = float(input('Enter the width of rectangle 1: '))
 
 # Get the dimensions of rectangle 2
-length2 = int(input('Enter the length of rectangle 2: '))
-width2 = int(input('Enter the length of rectangle 2: '))
+length2 = float(input('Enter the length of rectangle 2: '))
+width2 = float(input('Enter the length of rectangle 2: '))
 
 # Calculate the areas of the rectangles
 area1 = length1 * width1
